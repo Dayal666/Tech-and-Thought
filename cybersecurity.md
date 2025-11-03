@@ -1,6 +1,0 @@
----
-layout: category
-title: "Cybersecurity"
-category: cybersecurity
-permalink: /category/cybersecurity/
----
