@@ -1,0 +1,20 @@
+title: "Tech & Thoughts"
+author: "CipherLurk"
+description: "A blog about cybersecurity, tech experiments, and thoughts that keep my terminal busy."
+theme: minima
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Custom settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

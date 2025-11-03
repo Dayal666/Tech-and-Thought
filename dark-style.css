@@ -1,0 +1,23 @@
+body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Fira Code', monospace;
+}
+a {
+  color: #00ffcc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header, footer {
+  background: #111;
+  padding: 15px;
+  text-align: center;
+}
+code {
+  background: #1a1a1a;
+  color: #00ffcc;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
