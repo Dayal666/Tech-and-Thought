@@ -99,6 +99,14 @@
     <p>Stay curious • Stay encrypted • CipherLurk © 2025</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script>
+document.getElementById('cyberCard')?.addEventListener('click',()=>{
+  const body=document.getElementById('cyberBody');
+  const expanded = body.hasAttribute('hidden');
+  if(expanded){body.removeAttribute('hidden');}
+  else{body.setAttribute('hidden','');}
+});
+</script>
 </body>
 </html>
