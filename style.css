@@ -82,3 +82,49 @@ footer {
   0%, 100% { text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0; }
   50% { text-shadow: 0 0 30px #00ffe0, 0 0 60px #00ffe0; }
 }
+
+/* Cyber Links Section */
+.cyber-links {
+  text-align: center;
+  padding: 60px 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.cyber-links h2 {
+  font-family: 'Orbitron', sans-serif;
+  color: #00ffe0;
+  font-size: 2em;
+  text-shadow: 0 0 20px #00ffe0;
+  margin-bottom: 40px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  background: rgba(0, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  color: #d0d0d0;
+  padding: 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.link-card:hover {
+  transform: translateY(-6px);
+  background: rgba(0, 255, 255, 0.1);
+  border-color: #00ffe0;
+  box-shadow: 0 0 20px #00ffe0, 0 0 40px #00ffe0 inset;
+  color: #00ffe0;
+}
+
